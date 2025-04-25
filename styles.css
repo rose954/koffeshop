@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+header .navbar {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  font-weight: 900;
+  font-size: 20px;
+  overflow: hidden;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: grey;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 80px;
+}
+@media screen and (max-width:600px) {
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+#home {
+  padding: 5em;
+  background-image: url(https://i.pinimg.com/564x/1c/34/a2/1c34a229be9e1979910dc44ee207498b.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  height: 500px;
+}
+
+
+
+#menu {
+  padding-top: 2em;
+  padding-left: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu,
+#feedback {
+  background-color: #352b2d;
+  color: white;
+}
+
+footer {
+  padding: 3em;
+  text-align: center;
+  background-color: #352b2d;
+  color: white;
+}
+
+form {
+  max-width: fit-content;
+  width: auto;
+}
+
+#feedback {
+  padding: 4em;
+}
+
+#search {
+  text-align: left;
+  padding: 4em;
+  background-color: #352b2d;
+  color: white;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100px;
+  height: 300px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: 1.25rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__link {
+  font-weight: 900;
+}
+
+.footer__link:hover,
+.social-list__link:hover {
+  opacity: 0.7;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-list__item {
+  margin: 0 0.5em;
+}
+
+.social-list__link {
+  padding: 0.5em;
+}
